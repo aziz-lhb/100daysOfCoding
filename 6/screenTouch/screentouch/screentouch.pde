@@ -3,17 +3,10 @@ int ac= 2;
 
 void setup() {
   fullScreen();
-  //background(23, 45, 154);
 }
 
 void draw(){
- //do{
-   // rect(X,Y, 100,100);
- //   fill (r, g, b);
-//    X=X+1;
- //   Y=Y+1;
- // }
- // while(ac!=1);
+
   rect(X, Y, 100, 100);
   fill(r,g,b);
   if(mouseX>X && mouseX<X+100 && mouseY>Y && mouseY<Y+100){
